@@ -3,6 +3,7 @@ package com.dias.kisahnabiapp.ui.detail
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
+import com.dias.kisahnabiapp.R
 import com.dias.kisahnabiapp.data.KisahResponse
 import com.dias.kisahnabiapp.databinding.ActivityDetailBinding
 
@@ -22,6 +23,8 @@ class DetailActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val kisah = intent.getParcelableExtra<KisahResponse>(DATA_RESPONSE) as KisahResponse
+
+        supportActionBar?.title = getString(R.string.title_detail)
 
         binding.apply {
             detailNama.text = kisah.name
