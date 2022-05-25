@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kisah Nabi App</string>
+    <string name="txt_content_detail_image">content_detail_image</string>
+    <string name="txt_tahun_kelahiran">Tahun Kelahiran</string>
+    <string name="txt_tempat">Tempat</string>
+    <string name="txt_usia">Usia</string>
+    <string name="txt_kisah_nabi">Kisah nabi</string>
+    <string name="content_image_item">Item Image</string>
+</resources>
